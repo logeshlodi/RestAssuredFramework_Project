@@ -1,0 +1,84 @@
+{
+  "friends": [
+    {
+      "firstname": "Raghubir",
+      "lastname": "Singh",
+      "id": "manoj",
+      "age": 38
+    },
+    {
+      "firstname": "Tejinder",
+      "lastname": "Bhatti",
+      "id": "deepak",
+      "age": 30
+    },
+    {
+      "id": 1,
+      "firstName": "Logesh",
+      "lastName": "V",
+      "mentorName": "Velu",
+      "designation": "IT Analyst",
+      "courseName": "API Testing"
+    },
+    {
+      "id": 999,
+      "firstName": "Arshbir",
+      "lastName": "Singh",
+      "age": 9,
+      "profession": "Student"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "lotto": {
+    "lottoId": 5,
+    "winning-numbers": [
+      2,
+      45,
+      34,
+      23,
+      7,
+      5,
+      3
+    ],
+    "winners": [
+      {
+        "winnerId": 23,
+        "numbers": [
+          2,
+          45,
+          34,
+          23,
+          3,
+          5
+        ]
+      },
+      {
+        "winnerId": 54,
+        "numbers": [
+          52,
+          3,
+          12,
+          11,
+          18,
+          22
+        ]
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
+}

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-22T12:49:57 IST" name="Default suite" finished-at="2021-11-22T12:49:58 IST" duration-ms="542">
+  <suite started-at="2022-03-18T13:27:16 IST" name="Default suite" finished-at="2022-03-18T13:27:17 IST" duration-ms="1404">
     <groups>
     </groups>
-    <test started-at="2021-11-22T12:49:57 IST" name="Default test" finished-at="2021-11-22T12:49:58 IST" duration-ms="542">
+    <test started-at="2022-03-18T13:27:16 IST" name="Default test" finished-at="2022-03-18T13:27:17 IST" duration-ms="1404">
       <class name="Org.Testing.TestTrigger.Trigger">
-        <test-method signature="second()[pri:1, instance:Org.Testing.TestTrigger.Trigger@bef2d72]" started-at="2021-11-22T12:49:57 IST" name="second" finished-at="2021-11-22T12:49:58 IST" duration-ms="315" status="FAIL">
+        <test-method signature="second()[pri:1, instance:Org.Testing.TestTrigger.Trigger@49d904ec]" started-at="2022-03-18T13:27:16 IST" name="second" finished-at="2022-03-18T13:27:17 IST" duration-ms="1211" status="FAIL">
           <exception class="java.lang.ExceptionInInitializerError">
             <full-stacktrace>
               <![CDATA[java.lang.ExceptionInInitializerError
@@ -42,7 +42,7 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private java.lang.Class(java.lang.ClassLoader,java.lang.Class) accessible: module java.base does not "opens java.lang" to unnamed module @368102c8
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private java.lang.Class(java.lang.ClassLoader,java.lang.Class) accessible: module java.base does not "opens java.lang" to unnamed module @626b2d4a
 at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
 at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
 at java.base/java.lang.reflect.Constructor.checkCanSetAccessible(Constructor.java:188)
@@ -83,7 +83,7 @@ at com.jayway.restassured.RestAssured.<clinit>(RestAssured.java:423)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- second -->
-        <test-method signature="first()[pri:2, instance:Org.Testing.TestTrigger.Trigger@bef2d72]" started-at="2021-11-22T12:49:58 IST" name="first" finished-at="2021-11-22T12:49:58 IST" duration-ms="2" status="FAIL">
+        <test-method signature="first()[pri:2, instance:Org.Testing.TestTrigger.Trigger@49d904ec]" started-at="2022-03-18T13:27:17 IST" name="first" finished-at="2022-03-18T13:27:17 IST" duration-ms="19" status="FAIL">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[Could not initialize class com.jayway.restassured.RestAssured]]>
@@ -127,7 +127,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- first -->
-        <test-method signature="fourth()[pri:3, instance:Org.Testing.TestTrigger.Trigger@bef2d72]" started-at="2021-11-22T12:49:58 IST" name="fourth" finished-at="2021-11-22T12:49:58 IST" duration-ms="23" status="FAIL">
+        <test-method signature="fourth()[pri:3, instance:Org.Testing.TestTrigger.Trigger@49d904ec]" started-at="2022-03-18T13:27:17 IST" name="fourth" finished-at="2022-03-18T13:27:17 IST" duration-ms="26" status="FAIL">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[Could not initialize class com.jayway.restassured.RestAssured]]>
@@ -171,7 +171,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourth -->
-        <test-method signature="third()[pri:4, instance:Org.Testing.TestTrigger.Trigger@bef2d72]" started-at="2021-11-22T12:49:58 IST" name="third" finished-at="2021-11-22T12:49:58 IST" duration-ms="3" status="FAIL">
+        <test-method signature="third()[pri:4, instance:Org.Testing.TestTrigger.Trigger@49d904ec]" started-at="2022-03-18T13:27:17 IST" name="third" finished-at="2022-03-18T13:27:17 IST" duration-ms="8" status="FAIL">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[Could not initialize class com.jayway.restassured.RestAssured]]>

@@ -15,7 +15,7 @@ public class HttpMethods {
 	
 	public HttpMethods(Properties Pr)
 	{
-		this.Pr=Pr;
+		HttpMethods.Pr=Pr;
 	}
 	
 	public Response GetRequest(String id, String URI)

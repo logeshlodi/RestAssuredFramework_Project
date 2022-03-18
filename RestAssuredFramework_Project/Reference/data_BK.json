@@ -1,0 +1,124 @@
+{
+  "friends": [
+    {
+      "firstname": "Raghubir",
+      "lastname": "Singh",
+      "id": "manoj",
+      "age": 38
+    },
+    {
+      "firstname": "Tejinder",
+      "lastname": "Bhatti",
+      "id": "deepak",
+      "age": 30
+    },
+    {
+      "id": 1,
+	  "firstName": "Logesh",
+      "lastName": "V",
+      "mentorName": "Velu",    
+      "designation": "IT Analyst",
+      "courseName": "API Testing"
+    },
+    {
+      "id": 2,
+      "address": {
+        "zipCode": "625531",
+        "street": "Old GH Road",
+        "h_No": "17/A1"
+      },
+      "firstName": "Murali",
+      "lastName": "D",
+	  "mentorName": "Hari"
+      "designation": "System Analyst",
+      "courseName": "Selenium Testing",
+
+    },
+    {
+      "id": 3,
+      "address": [
+        {
+          "street": "Old Bus Stand",
+          "h_No": "15/A3",
+          "zipCode": "600001"
+        },
+        {
+          "street": "Sriram Nagar",
+          "h_No": "17/5A",
+          "zipCode": "600113"
+        }
+      ],
+      "firstName": "Hari",
+      "lastName": "Sankar",
+	  "mentorName": "Velan"
+      "designation": "Game Analyst",
+      "courseName": "Java",
+    },
+    {
+      "First Name": "Preethi",
+      "id": 4,
+      "Last Name": "N",
+      "Age": 26
+    },
+    {
+      "Address": {
+        "Street Name": "Edward Road",
+        "H.No": "3726"
+      },
+      "First Name": "Yuvasree",
+      "id": 5,
+      "Last Name": "N",
+      "Age": 22
+    },
+    {
+      "Address": [
+        {
+          "Street Name": "Edward Road",
+          "H.No": "3726"
+        },
+        {
+          "Street Name": "Periyar Road",
+          "H.No": "3726/89"
+        }
+      ],
+      "First Name": "Gowri",
+      "id": 6,
+      "Last Name": "V",
+      "Age": 25
+    },
+    {
+      "friends": [
+        {
+          "firstname": "Sachin",
+          "id": 7,
+          "age": 38,
+          "lastname": "Singh"
+        }
+      ],
+      "id": "LOG01"
+    },
+    {
+      "Designation": "Captain",
+      "firstname": "Dhoni",
+      "Experience": 5,
+      "id": 8
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
